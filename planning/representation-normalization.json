@@ -1,0 +1,36 @@
+{
+  "reason": "UTF-8/LF contract; representation only, no numerical changes",
+  "files": {
+    "moreno-final-scientific-independent.json": {
+      "original_sha256": "0c5452d627794e31110daa851dac52b67e10a6b39cdc05716e69df3641a02fb6",
+      "normalized_sha256": "30d672d5bb0dd8dc588d612429f5fdae594836c3f057b1b8fabf44ae6dd0feb6",
+      "JSON_objects_equal": true,
+      "archive_member": "moreno-final-scientific-independent.json"
+    },
+    "moreno-fit-forensics.json": {
+      "original_sha256": "052b78e140893ec6247a604211b61abf2455cc81b098687848d3e13dc94b8b9f",
+      "normalized_sha256": "4f423845122c1b4f4200e8b072470911c41e9b9d1ab3588bc519cdfff9aa2f80",
+      "JSON_objects_equal": true,
+      "archive_member": "moreno-fit-forensics.json"
+    },
+    "moreno-precision-results-independent.json": {
+      "original_sha256": "d663d01215cd84e54964dcd1940f9c6ad01cc45dc431372f92c8db5d0d6c1596",
+      "normalized_sha256": "c88094a6981d31dd3f557d3115fe07310d6149266324c4a2add5c5c9e5599cbb",
+      "JSON_objects_equal": true,
+      "archive_member": "moreno-precision-results-independent.json"
+    },
+    "moreno-primary-independent.json": {
+      "original_sha256": "d124e3ac8183b31150b7745c04eeb21d089f6f641d001d10d782a337522baf29",
+      "normalized_sha256": "8581542a8a9517e62e65881b64fde644ff413e1068e81ac8ae2d10fae5bd5528",
+      "JSON_objects_equal": true,
+      "archive_member": "moreno-primary-independent.json"
+    },
+    "figure3-7.svg": {
+      "original_sha256": "6b43a75c170039a429542b49a46d50ba8651c60b6f1dddaba18a3a13f9aef28b",
+      "normalized_sha256": "7f4e7f1c8c27a95d92e74db7bc0f14a60e2c883fd248032a437fef6dcbecf52f",
+      "only_CRLF_to_LF": true,
+      "archive_member": "figure3-7-before-lf.svg"
+    }
+  },
+  "original_bytes_zip_sha256": "57a540caa61d5bf2a213d53cfeae74397ad45e7ee30c822c9e25e325fd44cb74"
+}

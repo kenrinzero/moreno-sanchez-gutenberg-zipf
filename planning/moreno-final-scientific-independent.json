@@ -1,0 +1,369 @@
+{
+  "verdict": "PASS for completed A/B/report arithmetic and embedded scientific data",
+  "all_records_per_pass": 31075,
+  "deterministic_A_B_fields_identical": true,
+  "stability": {
+    "f1": {
+      "both_accept": 4461,
+      "A_only": 263,
+      "B_only": 267,
+      "both_reject": 26084,
+      "switches": 530,
+      "agreement": 0.9829444891391794,
+      "kappa": 0.9338699056187567,
+      "A_accepted": 4724,
+      "B_accepted": 4728,
+      "relative_accepted_count_change": 0.000846740050804403
+    },
+    "f2": {
+      "both_accept": 11802,
+      "A_only": 694,
+      "B_only": 752,
+      "both_reject": 17827,
+      "switches": 1446,
+      "agreement": 0.953467417538214,
+      "kappa": 0.9033000578881107,
+      "A_accepted": 12496,
+      "B_accepted": 12554,
+      "relative_accepted_count_change": 0.0046414852752880926
+    }
+  },
+  "primary_failures": [
+    {
+      "table": "Table 1",
+      "row": "f1_only",
+      "column": 2,
+      "observed": 3806,
+      "expected": 3695,
+      "difference": 111,
+      "tolerance": 110.85,
+      "pass": false
+    },
+    {
+      "table": "Table 1",
+      "row": "both",
+      "column": 1,
+      "observed": 470,
+      "expected": 398,
+      "difference": 72,
+      "tolerance": 50,
+      "pass": false
+    },
+    {
+      "table": "Table 1",
+      "row": "both",
+      "column": 2,
+      "observed": 918,
+      "expected": 829,
+      "difference": 89,
+      "tolerance": 24.869999999999997,
+      "pass": false
+    },
+    {
+      "table": "Table 2",
+      "row": "neither",
+      "column": 0,
+      "observed": 456,
+      "expected": 510,
+      "difference": -54,
+      "tolerance": 50,
+      "pass": false
+    },
+    {
+      "table": "acceptance",
+      "row": "f1",
+      "observed": 4724,
+      "expected": 4524,
+      "difference": 200,
+      "tolerance": 135.72,
+      "pass": false
+    }
+  ],
+  "accepted_beta_moments": {
+    "f1": {
+      "n_accepted": 4724,
+      "mean": 2.0298832056245035,
+      "sd_population": 0.14887398487434805,
+      "sd_sample": 0.14888974457215057
+    },
+    "f2": {
+      "n_accepted": 12496,
+      "mean": 2.023377088208668,
+      "sd_population": 0.17404319891264272,
+      "sd_sample": 0.1740501632870643
+    }
+  },
+  "pooled_B200_diagnostic": {
+    "f1": 4682,
+    "f2": 12437
+  },
+  "quartiles": {
+    "f1": [
+      {
+        "books": 1181,
+        "min_L": 115,
+        "max_L": 4766
+      },
+      {
+        "books": 1181,
+        "min_L": 4774,
+        "max_L": 9191
+      },
+      {
+        "books": 1181,
+        "min_L": 9194,
+        "max_L": 14218
+      },
+      {
+        "books": 1181,
+        "min_L": 14218,
+        "max_L": 241358
+      }
+    ],
+    "f2": [
+      {
+        "books": 3124,
+        "min_L": 115,
+        "max_L": 17613
+      },
+      {
+        "books": 3124,
+        "min_L": 17615,
+        "max_L": 42422
+      },
+      {
+        "books": 3124,
+        "min_L": 42422,
+        "max_L": 68068
+      },
+      {
+        "books": 3124,
+        "min_L": 68068,
+        "max_L": 348992
+      }
+    ]
+  },
+  "threshold_curves_verified": 50,
+  "length_bin_threshold_count_pairs_verified": 3200,
+  "last_length_bin": {
+    "n_books": 75,
+    "min_L": 546527,
+    "max_L": 4659068,
+    "geometric_mean_L": 924100.8552836634,
+    "partial": true,
+    "counts": {
+      "1": {
+        "f1": 0,
+        "f2": 0
+      },
+      "2": {
+        "f1": 0,
+        "f2": 0
+      },
+      "3": {
+        "f1": 0,
+        "f2": 0
+      },
+      "4": {
+        "f1": 0,
+        "f2": 0
+      },
+      "5": {
+        "f1": 0,
+        "f2": 0
+      },
+      "6": {
+        "f1": 0,
+        "f2": 0
+      },
+      "7": {
+        "f1": 0,
+        "f2": 0
+      },
+      "8": {
+        "f1": 0,
+        "f2": 0
+      },
+      "9": {
+        "f1": 0,
+        "f2": 0
+      },
+      "10": {
+        "f1": 0,
+        "f2": 0
+      },
+      "11": {
+        "f1": 0,
+        "f2": 0
+      },
+      "12": {
+        "f1": 0,
+        "f2": 0
+      },
+      "13": {
+        "f1": 0,
+        "f2": 0
+      },
+      "14": {
+        "f1": 0,
+        "f2": 0
+      },
+      "15": {
+        "f1": 0,
+        "f2": 0
+      },
+      "16": {
+        "f1": 0,
+        "f2": 0
+      },
+      "17": {
+        "f1": 0,
+        "f2": 0
+      },
+      "18": {
+        "f1": 0,
+        "f2": 0
+      },
+      "19": {
+        "f1": 0,
+        "f2": 0
+      },
+      "20": {
+        "f1": 0,
+        "f2": 0
+      },
+      "21": {
+        "f1": 0,
+        "f2": 0
+      },
+      "22": {
+        "f1": 0,
+        "f2": 0
+      },
+      "23": {
+        "f1": 0,
+        "f2": 0
+      },
+      "24": {
+        "f1": 0,
+        "f2": 0
+      },
+      "25": {
+        "f1": 0,
+        "f2": 0
+      },
+      "26": {
+        "f1": 0,
+        "f2": 0
+      },
+      "27": {
+        "f1": 0,
+        "f2": 0
+      },
+      "28": {
+        "f1": 0,
+        "f2": 0
+      },
+      "29": {
+        "f1": 0,
+        "f2": 0
+      },
+      "30": {
+        "f1": 0,
+        "f2": 0
+      },
+      "31": {
+        "f1": 0,
+        "f2": 0
+      },
+      "32": {
+        "f1": 0,
+        "f2": 0
+      },
+      "33": {
+        "f1": 0,
+        "f2": 0
+      },
+      "34": {
+        "f1": 0,
+        "f2": 0
+      },
+      "35": {
+        "f1": 0,
+        "f2": 0
+      },
+      "36": {
+        "f1": 0,
+        "f2": 0
+      },
+      "37": {
+        "f1": 0,
+        "f2": 0
+      },
+      "38": {
+        "f1": 0,
+        "f2": 0
+      },
+      "39": {
+        "f1": 0,
+        "f2": 0
+      },
+      "40": {
+        "f1": 0,
+        "f2": 0
+      },
+      "41": {
+        "f1": 0,
+        "f2": 0
+      },
+      "42": {
+        "f1": 0,
+        "f2": 0
+      },
+      "43": {
+        "f1": 0,
+        "f2": 0
+      },
+      "44": {
+        "f1": 0,
+        "f2": 0
+      },
+      "45": {
+        "f1": 0,
+        "f2": 0
+      },
+      "46": {
+        "f1": 0,
+        "f2": 0
+      },
+      "47": {
+        "f1": 0,
+        "f2": 0
+      },
+      "48": {
+        "f1": 0,
+        "f2": 0
+      },
+      "49": {
+        "f1": 0,
+        "f2": 0
+      },
+      "50": {
+        "f1": 0,
+        "f2": 0
+      }
+    }
+  },
+  "sample_variance_significant_both_f2": 3,
+  "hashes": {
+    "results/pass-A/books.jsonl": "ca86298a6d41da4bb5eaa6ad1c6e2f8a4c085ced1a3a51ed3e25aeb47e5df54b",
+    "results/pass-B/books.jsonl": "09fe9f9d328f80bf304748fcceb1aa689d38141b644210e37aa8fee250207ba7",
+    "results/report.json": "86d0c55cc5b780a42fadd2d58252a11dd249b21263acebc5381fbcec72f6af3f",
+    "REPORT.md": "fa025f8c4e706c5b4fcd5082abd4ce7249e7d9d94c318748bacbbf02705909a1",
+    "README.md": "d2cea152946b42ab95bc21bfd14cb71b66197936d60155f4fad3a7b569b0ac29",
+    "index.html": "d8abf793d7570c1ceb8341a012f0fa482afeda3d6c4ebd26971f7f7061ca937b",
+    "figures/figure3-7.png": "6a636fde96293890b3337d7840a58f6a3127a2ce448362cbbafcb2bcb36b0169",
+    "figures/figure3-7.svg": "6b43a75c170039a429542b49a46d50ba8651c60b6f1dddaba18a3a13f9aef28b"
+  },
+  "limits": "Interpretation and visible prose inspected separately; no change to primary or error attribution."
+}

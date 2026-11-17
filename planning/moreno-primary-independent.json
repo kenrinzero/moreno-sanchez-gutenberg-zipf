@@ -1,0 +1,902 @@
+{
+  "audit": "PASS for record integrity and independent arithmetic; reproduction gate assessed separately",
+  "pass_A_sha256": "ca86298a6d41da4bb5eaa6ad1c6e2f8a4c085ced1a3a51ed3e25aeb47e5df54b",
+  "records": 31075,
+  "N_total": 177927677,
+  "L_total": 1961738645,
+  "table1": {
+    "f1_only": [
+      3731,
+      75,
+      3806
+    ],
+    "f2_only": [
+      99,
+      11479,
+      11578
+    ],
+    "both": [
+      448,
+      470,
+      918
+    ],
+    "total_lr": [
+      4278,
+      12024,
+      16302
+    ]
+  },
+  "table2": {
+    "f1_only": [
+      1722,
+      0
+    ],
+    "f2_only": [
+      0,
+      9567
+    ],
+    "both": [
+      0,
+      4
+    ],
+    "total_first_three_rows": [
+      1722,
+      9571
+    ],
+    "neither": [
+      456,
+      11285
+    ]
+  },
+  "accepted": {
+    "f1": 4724,
+    "f2": 12496
+  },
+  "neither": 14773,
+  "comparisons": [
+    {
+      "table": "Table 1",
+      "row": "f1_only",
+      "column": 0,
+      "observed": 3731,
+      "expected": 3614,
+      "difference": 117,
+      "tolerance": 180.70000000000002,
+      "pass": true
+    },
+    {
+      "table": "Table 1",
+      "row": "f1_only",
+      "column": 1,
+      "observed": 75,
+      "expected": 81,
+      "difference": -6,
+      "tolerance": 50,
+      "pass": true
+    },
+    {
+      "table": "Table 1",
+      "row": "f1_only",
+      "column": 2,
+      "observed": 3806,
+      "expected": 3695,
+      "difference": 111,
+      "tolerance": 110.85,
+      "pass": false
+    },
+    {
+      "table": "Table 1",
+      "row": "f2_only",
+      "column": 0,
+      "observed": 99,
+      "expected": 120,
+      "difference": -21,
+      "tolerance": 50,
+      "pass": true
+    },
+    {
+      "table": "Table 1",
+      "row": "f2_only",
+      "column": 1,
+      "observed": 11479,
+      "expected": 11366,
+      "difference": 113,
+      "tolerance": 568.3000000000001,
+      "pass": true
+    },
+    {
+      "table": "Table 1",
+      "row": "f2_only",
+      "column": 2,
+      "observed": 11578,
+      "expected": 11486,
+      "difference": 92,
+      "tolerance": 344.58,
+      "pass": true
+    },
+    {
+      "table": "Table 1",
+      "row": "both",
+      "column": 0,
+      "observed": 448,
+      "expected": 431,
+      "difference": 17,
+      "tolerance": 50,
+      "pass": true
+    },
+    {
+      "table": "Table 1",
+      "row": "both",
+      "column": 1,
+      "observed": 470,
+      "expected": 398,
+      "difference": 72,
+      "tolerance": 50,
+      "pass": false
+    },
+    {
+      "table": "Table 1",
+      "row": "both",
+      "column": 2,
+      "observed": 918,
+      "expected": 829,
+      "difference": 89,
+      "tolerance": 24.869999999999997,
+      "pass": false
+    },
+    {
+      "table": "Table 1",
+      "row": "total_lr",
+      "column": 0,
+      "observed": 4278,
+      "expected": 4165,
+      "difference": 113,
+      "tolerance": 124.94999999999999,
+      "pass": true
+    },
+    {
+      "table": "Table 1",
+      "row": "total_lr",
+      "column": 1,
+      "observed": 12024,
+      "expected": 11845,
+      "difference": 179,
+      "tolerance": 355.34999999999997,
+      "pass": true
+    },
+    {
+      "table": "Table 1",
+      "row": "total_lr",
+      "column": 2,
+      "observed": 16302,
+      "expected": 16010,
+      "difference": 292,
+      "tolerance": 480.29999999999995,
+      "pass": true
+    },
+    {
+      "table": "Table 2",
+      "row": "f1_only",
+      "column": 0,
+      "observed": 1722,
+      "expected": 1666,
+      "difference": 56,
+      "tolerance": 83.30000000000001,
+      "pass": true
+    },
+    {
+      "table": "Table 2",
+      "row": "f1_only",
+      "column": 1,
+      "observed": 0,
+      "expected": 0,
+      "difference": 0,
+      "tolerance": 5,
+      "pass": true
+    },
+    {
+      "table": "Table 2",
+      "row": "f2_only",
+      "column": 0,
+      "observed": 0,
+      "expected": 0,
+      "difference": 0,
+      "tolerance": 5,
+      "pass": true
+    },
+    {
+      "table": "Table 2",
+      "row": "f2_only",
+      "column": 1,
+      "observed": 9567,
+      "expected": 9423,
+      "difference": 144,
+      "tolerance": 471.15000000000003,
+      "pass": true
+    },
+    {
+      "table": "Table 2",
+      "row": "both",
+      "column": 0,
+      "observed": 0,
+      "expected": 0,
+      "difference": 0,
+      "tolerance": 5,
+      "pass": true
+    },
+    {
+      "table": "Table 2",
+      "row": "both",
+      "column": 1,
+      "observed": 4,
+      "expected": 3,
+      "difference": 1,
+      "tolerance": 50,
+      "pass": true
+    },
+    {
+      "table": "Table 2",
+      "row": "total_first_three_rows",
+      "column": 0,
+      "observed": 1722,
+      "expected": 1666,
+      "difference": 56,
+      "tolerance": 83.30000000000001,
+      "pass": true
+    },
+    {
+      "table": "Table 2",
+      "row": "total_first_three_rows",
+      "column": 1,
+      "observed": 9571,
+      "expected": 9426,
+      "difference": 145,
+      "tolerance": 471.3,
+      "pass": true
+    },
+    {
+      "table": "Table 2",
+      "row": "neither",
+      "column": 0,
+      "observed": 456,
+      "expected": 510,
+      "difference": -54,
+      "tolerance": 50,
+      "pass": false
+    },
+    {
+      "table": "Table 2",
+      "row": "neither",
+      "column": 1,
+      "observed": 11285,
+      "expected": 11431,
+      "difference": -146,
+      "tolerance": 571.5500000000001,
+      "pass": true
+    },
+    {
+      "table": "acceptance",
+      "row": "f1",
+      "observed": 4724,
+      "expected": 4524,
+      "difference": 200,
+      "tolerance": 135.72,
+      "pass": false
+    },
+    {
+      "table": "acceptance",
+      "row": "f2",
+      "observed": 12496,
+      "expected": 12315,
+      "difference": 181,
+      "tolerance": 369.45,
+      "pass": true
+    },
+    {
+      "table": "ratio",
+      "observed": 2.645215918712955,
+      "expected": 2.7221485411140582,
+      "difference": -0.07693262240110332,
+      "tolerance": 0.1,
+      "pass": true
+    }
+  ],
+  "failed_comparisons": [
+    {
+      "table": "Table 1",
+      "row": "f1_only",
+      "column": 2,
+      "observed": 3806,
+      "expected": 3695,
+      "difference": 111,
+      "tolerance": 110.85,
+      "pass": false
+    },
+    {
+      "table": "Table 1",
+      "row": "both",
+      "column": 1,
+      "observed": 470,
+      "expected": 398,
+      "difference": 72,
+      "tolerance": 50,
+      "pass": false
+    },
+    {
+      "table": "Table 1",
+      "row": "both",
+      "column": 2,
+      "observed": 918,
+      "expected": 829,
+      "difference": 89,
+      "tolerance": 24.869999999999997,
+      "pass": false
+    },
+    {
+      "table": "Table 2",
+      "row": "neither",
+      "column": 0,
+      "observed": 456,
+      "expected": 510,
+      "difference": -54,
+      "tolerance": 50,
+      "pass": false
+    },
+    {
+      "table": "acceptance",
+      "row": "f1",
+      "observed": 4724,
+      "expected": 4524,
+      "difference": 200,
+      "tolerance": 135.72,
+      "pass": false
+    }
+  ],
+  "contradictory_books": [],
+  "diagnostics": {
+    "f1": {
+      "K_histogram": {
+        "0": 24721,
+        "1": 680,
+        "2": 419,
+        "3": 295,
+        "4": 236,
+        "5": 177,
+        "6": 188,
+        "7": 154,
+        "8": 155,
+        "9": 152,
+        "10": 121,
+        "11": 114,
+        "12": 105,
+        "13": 110,
+        "14": 82,
+        "15": 78,
+        "16": 83,
+        "17": 76,
+        "18": 83,
+        "19": 88,
+        "20": 83,
+        "21": 65,
+        "22": 71,
+        "23": 73,
+        "24": 75,
+        "25": 70,
+        "26": 60,
+        "27": 48,
+        "28": 57,
+        "29": 47,
+        "30": 52,
+        "31": 53,
+        "32": 51,
+        "33": 50,
+        "34": 48,
+        "35": 46,
+        "36": 41,
+        "37": 42,
+        "38": 45,
+        "39": 52,
+        "40": 46,
+        "41": 42,
+        "42": 51,
+        "43": 51,
+        "44": 34,
+        "45": 38,
+        "46": 43,
+        "47": 38,
+        "48": 49,
+        "49": 30,
+        "50": 34,
+        "51": 41,
+        "52": 33,
+        "53": 38,
+        "54": 38,
+        "55": 33,
+        "56": 35,
+        "57": 29,
+        "58": 39,
+        "59": 38,
+        "60": 22,
+        "61": 33,
+        "62": 34,
+        "63": 30,
+        "64": 19,
+        "65": 25,
+        "66": 35,
+        "67": 40,
+        "68": 39,
+        "69": 25,
+        "70": 29,
+        "71": 26,
+        "72": 22,
+        "73": 30,
+        "74": 41,
+        "75": 15,
+        "76": 29,
+        "77": 27,
+        "78": 24,
+        "79": 22,
+        "80": 15,
+        "81": 24,
+        "82": 30,
+        "83": 23,
+        "84": 23,
+        "85": 21,
+        "86": 29,
+        "87": 27,
+        "88": 28,
+        "89": 28,
+        "90": 17,
+        "91": 28,
+        "92": 20,
+        "93": 17,
+        "94": 20,
+        "95": 21,
+        "96": 19,
+        "97": 20,
+        "98": 31,
+        "99": 24,
+        "100": 17
+      },
+      "accepted_strict_p": 4547,
+      "accepted_strict_statistic": 4724,
+      "accepted_plus_one": 4724,
+      "total_ties": 0,
+      "total_raw_float_ties": 0,
+      "total_ks_refinements": 0,
+      "total_inverse_refinements": 624,
+      "total_large_integers": 1,
+      "beta_range": [
+        1.2713626085406435,
+        4.0
+      ],
+      "upper_boundary_books": [
+        26513
+      ],
+      "accepted_mean_beta": 2.0298832056245035
+    },
+    "f2": {
+      "K_histogram": {
+        "0": 13950,
+        "1": 2001,
+        "2": 1084,
+        "3": 838,
+        "4": 706,
+        "5": 511,
+        "6": 514,
+        "7": 469,
+        "8": 368,
+        "9": 383,
+        "10": 362,
+        "11": 332,
+        "12": 287,
+        "13": 251,
+        "14": 243,
+        "15": 280,
+        "16": 255,
+        "17": 235,
+        "18": 218,
+        "19": 214,
+        "20": 224,
+        "21": 183,
+        "22": 165,
+        "23": 168,
+        "24": 186,
+        "25": 181,
+        "26": 158,
+        "27": 151,
+        "28": 158,
+        "29": 139,
+        "30": 161,
+        "31": 132,
+        "32": 138,
+        "33": 136,
+        "34": 151,
+        "35": 137,
+        "36": 137,
+        "37": 121,
+        "38": 115,
+        "39": 99,
+        "40": 133,
+        "41": 108,
+        "42": 96,
+        "43": 118,
+        "44": 121,
+        "45": 118,
+        "46": 90,
+        "47": 106,
+        "48": 111,
+        "49": 109,
+        "50": 98,
+        "51": 101,
+        "52": 77,
+        "53": 82,
+        "54": 91,
+        "55": 84,
+        "56": 82,
+        "57": 77,
+        "58": 92,
+        "59": 72,
+        "60": 72,
+        "61": 65,
+        "62": 80,
+        "63": 77,
+        "64": 92,
+        "65": 81,
+        "66": 75,
+        "67": 80,
+        "68": 65,
+        "69": 76,
+        "70": 83,
+        "71": 64,
+        "72": 55,
+        "73": 69,
+        "74": 67,
+        "75": 80,
+        "76": 70,
+        "77": 74,
+        "78": 68,
+        "79": 66,
+        "80": 53,
+        "81": 65,
+        "82": 65,
+        "83": 65,
+        "84": 58,
+        "85": 75,
+        "86": 37,
+        "87": 50,
+        "88": 47,
+        "89": 55,
+        "90": 67,
+        "91": 49,
+        "92": 46,
+        "93": 52,
+        "94": 45,
+        "95": 55,
+        "96": 45,
+        "97": 49,
+        "98": 47,
+        "99": 39,
+        "100": 45
+      },
+      "accepted_strict_p": 11985,
+      "accepted_strict_statistic": 12496,
+      "accepted_plus_one": 12496,
+      "total_ties": 0,
+      "total_raw_float_ties": 0,
+      "total_ks_refinements": 2,
+      "total_inverse_refinements": 86,
+      "total_large_integers": 0,
+      "beta_range": [
+        1.3090434400795052,
+        4.0
+      ],
+      "upper_boundary_books": [
+        26513
+      ],
+      "accepted_mean_beta": 2.023377088208668
+    }
+  },
+  "lr_degenerate_books": [],
+  "zero_lr_books": [],
+  "strict_p_sensitivity": {
+    "table1": {
+      "f1_only": [
+        3667,
+        68,
+        3735
+      ],
+      "f2_only": [
+        83,
+        11090,
+        11173
+      ],
+      "both": [
+        395,
+        417,
+        812
+      ],
+      "total_lr": [
+        4145,
+        11575,
+        15720
+      ]
+    },
+    "table2": {
+      "f1_only": [
+        1677,
+        0
+      ],
+      "f2_only": [
+        0,
+        9240
+      ],
+      "both": [
+        0,
+        4
+      ],
+      "total_first_three_rows": [
+        1677,
+        9244
+      ],
+      "neither": [
+        501,
+        11612
+      ]
+    },
+    "accepted": {
+      "f1": 4547,
+      "f2": 11985
+    },
+    "all_frozen_numerical_bands_pass": true,
+    "comparisons": [
+      {
+        "table": "Table 1",
+        "row": "f1_only",
+        "column": 0,
+        "observed": 3667,
+        "expected": 3614,
+        "difference": 53,
+        "tolerance": 180.70000000000002,
+        "pass": true
+      },
+      {
+        "table": "Table 1",
+        "row": "f1_only",
+        "column": 1,
+        "observed": 68,
+        "expected": 81,
+        "difference": -13,
+        "tolerance": 50,
+        "pass": true
+      },
+      {
+        "table": "Table 1",
+        "row": "f1_only",
+        "column": 2,
+        "observed": 3735,
+        "expected": 3695,
+        "difference": 40,
+        "tolerance": 110.85,
+        "pass": true
+      },
+      {
+        "table": "Table 1",
+        "row": "f2_only",
+        "column": 0,
+        "observed": 83,
+        "expected": 120,
+        "difference": -37,
+        "tolerance": 50,
+        "pass": true
+      },
+      {
+        "table": "Table 1",
+        "row": "f2_only",
+        "column": 1,
+        "observed": 11090,
+        "expected": 11366,
+        "difference": -276,
+        "tolerance": 568.3000000000001,
+        "pass": true
+      },
+      {
+        "table": "Table 1",
+        "row": "f2_only",
+        "column": 2,
+        "observed": 11173,
+        "expected": 11486,
+        "difference": -313,
+        "tolerance": 344.58,
+        "pass": true
+      },
+      {
+        "table": "Table 1",
+        "row": "both",
+        "column": 0,
+        "observed": 395,
+        "expected": 431,
+        "difference": -36,
+        "tolerance": 50,
+        "pass": true
+      },
+      {
+        "table": "Table 1",
+        "row": "both",
+        "column": 1,
+        "observed": 417,
+        "expected": 398,
+        "difference": 19,
+        "tolerance": 50,
+        "pass": true
+      },
+      {
+        "table": "Table 1",
+        "row": "both",
+        "column": 2,
+        "observed": 812,
+        "expected": 829,
+        "difference": -17,
+        "tolerance": 24.869999999999997,
+        "pass": true
+      },
+      {
+        "table": "Table 1",
+        "row": "total_lr",
+        "column": 0,
+        "observed": 4145,
+        "expected": 4165,
+        "difference": -20,
+        "tolerance": 124.94999999999999,
+        "pass": true
+      },
+      {
+        "table": "Table 1",
+        "row": "total_lr",
+        "column": 1,
+        "observed": 11575,
+        "expected": 11845,
+        "difference": -270,
+        "tolerance": 355.34999999999997,
+        "pass": true
+      },
+      {
+        "table": "Table 1",
+        "row": "total_lr",
+        "column": 2,
+        "observed": 15720,
+        "expected": 16010,
+        "difference": -290,
+        "tolerance": 480.29999999999995,
+        "pass": true
+      },
+      {
+        "table": "Table 2",
+        "row": "f1_only",
+        "column": 0,
+        "observed": 1677,
+        "expected": 1666,
+        "difference": 11,
+        "tolerance": 83.30000000000001,
+        "pass": true
+      },
+      {
+        "table": "Table 2",
+        "row": "f1_only",
+        "column": 1,
+        "observed": 0,
+        "expected": 0,
+        "difference": 0,
+        "tolerance": 5,
+        "pass": true
+      },
+      {
+        "table": "Table 2",
+        "row": "f2_only",
+        "column": 0,
+        "observed": 0,
+        "expected": 0,
+        "difference": 0,
+        "tolerance": 5,
+        "pass": true
+      },
+      {
+        "table": "Table 2",
+        "row": "f2_only",
+        "column": 1,
+        "observed": 9240,
+        "expected": 9423,
+        "difference": -183,
+        "tolerance": 471.15000000000003,
+        "pass": true
+      },
+      {
+        "table": "Table 2",
+        "row": "both",
+        "column": 0,
+        "observed": 0,
+        "expected": 0,
+        "difference": 0,
+        "tolerance": 5,
+        "pass": true
+      },
+      {
+        "table": "Table 2",
+        "row": "both",
+        "column": 1,
+        "observed": 4,
+        "expected": 3,
+        "difference": 1,
+        "tolerance": 50,
+        "pass": true
+      },
+      {
+        "table": "Table 2",
+        "row": "total_first_three_rows",
+        "column": 0,
+        "observed": 1677,
+        "expected": 1666,
+        "difference": 11,
+        "tolerance": 83.30000000000001,
+        "pass": true
+      },
+      {
+        "table": "Table 2",
+        "row": "total_first_three_rows",
+        "column": 1,
+        "observed": 9244,
+        "expected": 9426,
+        "difference": -182,
+        "tolerance": 471.3,
+        "pass": true
+      },
+      {
+        "table": "Table 2",
+        "row": "neither",
+        "column": 0,
+        "observed": 501,
+        "expected": 510,
+        "difference": -9,
+        "tolerance": 50,
+        "pass": true
+      },
+      {
+        "table": "Table 2",
+        "row": "neither",
+        "column": 1,
+        "observed": 11612,
+        "expected": 11431,
+        "difference": 181,
+        "tolerance": 571.5500000000001,
+        "pass": true
+      },
+      {
+        "table": "acceptance",
+        "row": "f1",
+        "observed": 4547,
+        "expected": 4524,
+        "difference": 23,
+        "tolerance": 135.72,
+        "pass": true
+      },
+      {
+        "table": "acceptance",
+        "row": "f2",
+        "observed": 11985,
+        "expected": 12315,
+        "difference": -330,
+        "tolerance": 369.45,
+        "pass": true
+      },
+      {
+        "table": "ratio",
+        "observed": 2.6358038266989223,
+        "expected": 2.7221485411140582,
+        "difference": -0.08634471441513591,
+        "tolerance": 0.1,
+        "pass": true
+      }
+    ],
+    "interpretation": "Declared convention sensitivity only; does not replace inclusive primary or establish author implementation."
+  }
+}

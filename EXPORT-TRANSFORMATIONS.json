@@ -1,0 +1,407 @@
+{
+  "date": "2026-11-17",
+  "scope": "Clean public export; scientific run records and calibrated kernels unchanged",
+  "historical_hash_rule": "Original review hashes identify private source bytes. This receipt identifies transformed public copies.",
+  "source_sha256": {
+    ".editorconfig": "a38dc184aabf62d6bea89d602420a10eb74d0cf4c464968cf6b597670752e669",
+    ".gitattributes": "7c03187eed2b3b3373ac22aeac934cf45b09dc185d6ae692ba108adc8bc2a3b4",
+    ".gitignore": "e38953c1e2e2355d4131d26434791332ff7a6398a0b145e8b557a1a75df1023b",
+    "AUDIT-2026-11-17.md": "6f6780c8961ca947cc42876efbce5ad1564270d9e7aafd312428d02d817ec4ed",
+    "AUDIT-RESPONSE-2026-11-17.md": "4459a6d668d9b7eb8ede61438897e293440a54619f3e7c9f1da6969e60664911",
+    "data/derived/books.csv": "c87cbb9d22c7f9184b5311a0180701cad56dff3e779316d0114d61648bfd417d",
+    "data/derived/ingest.json": "e01f477d629eeb0faa717c6a5f07c5708d69bc8d74fd426de81fe897b47e2ce2",
+    "data/derived/README.md": "8e2cf8693aa18064ef8040675caa928bc8959d4a46f163e8d1f57965518a184d",
+    "data/raw/acquisition-2026-11-17.json": "1654dd9056fcf953ab3bf5282ee86ff32a1ec461fca249f0e00399c5aa0e2a95",
+    "data/raw/figshare-1515919.json": "b728e62649b3a4edb6628d385a9c962bae43ae201c0d9bc31b8bc8cff6dac13e",
+    "data/raw/manifest.json": "4817726995bcc19795d3dc7ef51f5f318164f949800fa300accd72863ec45915",
+    "data/raw/MANIFEST.md": "0a634e534f7da514e0c84b097822a58323a7d2c081f8138086e1f7d0174b707a",
+    "figures/figure3-7.png": "5222bd91dc0b23eba9d4f98fe454cf0f712ceea213a1b29aab98d875172b860d",
+    "figures/figure3-7.svg": "f9a6d2cd96d969c6f3c1e871d6651953c46f50edff9185509b8d0031237bd6b8",
+    "figures/manifest.json": "493bd4542858dd906916229aa8b3f363d4db75b26dbb7ad34bce8a6fa325dc77",
+    "index.html": "443c24b5e15ebe864ed28fd9158279303177b992265f3b7cbba50b3143ae7f8b",
+    "paper/PROVENANCE.md": "626fbf81bc65481ac5cf3ea1ca040d297d93ba8db4ddf13316f6a3909cd93249",
+    "paper/targets.json": "86c2a174a7afb0b30bfbf787e4e17568c473fead28faf5929b1e402b0367f558",
+    "planning/AMENDMENT-1-DRAFT.md": "840c71fab0c0d62da6bf8b974bf79d3ef8de9479fe3cf071adfcc6b7ff15ef86",
+    "planning/AMENDMENT-1.md": "6e90d8c646115f991ba8353d166579c9b0eb24b3a7f5e46525e922ff5bc92f93",
+    "planning/author-code-search-2026-11-17.md": "07e5544a32b2325b9a2e37d1370229816c4c80f6fbd7d14b4a65ad40c46cc1f1",
+    "planning/CONTRACT-FREEZE.json": "4d9dd3879bf7818dc53d886905344c89bcd8078741d3c0bbe403bb1af75f2dc3",
+    "planning/DIAGNOSTICS-CONVENTIONS.md": "582532d73e690e25864bfb68d023343b5d2590d25c2b95fce577f66af7aa64ea",
+    "planning/gemini-correction-checks.json": "786664b2f1d0a84f64501ad478a401e731579da06a6b16bdc82c24a53a59eaa8",
+    "planning/gemini-corrections-reader-review.md": "454d473f8a49644aaa582e67b942d7770f6fc9226d9bacb708ba1c223cc53817",
+    "planning/gemini-forensics-review.md": "dba2b7e29dd2a17b535a3c252c1441113a104c0f63fa5ff9062eadb954ba471e",
+    "planning/moreno-calibration-independent.json": "be789378b0d89264b8f58676725f6fac9f926ac0b20d1775cc8601646db69354",
+    "planning/moreno-final-scientific-independent.json": "30d672d5bb0dd8dc588d612429f5fdae594836c3f057b1b8fabf44ae6dd0feb6",
+    "planning/moreno-fit-forensics.json": "4f423845122c1b4f4200e8b072470911c41e9b9d1ab3588bc519cdfff9aa2f80",
+    "planning/moreno-precision-results-independent.json": "c88094a6981d31dd3f557d3115fe07310d6149266324c4a2add5c5c9e5599cbb",
+    "planning/moreno-primary-independent.json": "8581542a8a9517e62e65881b64fde644ff413e1068e81ac8ae2d10fae5bd5528",
+    "planning/moreno-reader-review.md": "56b79cee2fe563edca6e9f87b43a655d3f527e5e0d012b35455c0d5f94e92e41",
+    "planning/moreno-review-amendment-1.md": "326c08532c792c5d97a2ca141041cbc522e668403ef0af0bc9d5d5b75354ec21",
+    "planning/moreno-review-calibration-results.md": "79ff9704d7ffc62733508ed5a66123224cdacb1e0011812ffab6777f312990b8",
+    "planning/moreno-review-final-scientific.md": "f6d8bc540e9ab853ada8e0739e0bb549786449e347d054d78279211558070488",
+    "planning/moreno-review-implementation.md": "89acb9f65ae52d3c23318e37c54541a1bbaa8ffc800d7604f03fc3b271fb7f23",
+    "planning/moreno-review-initial.md": "b654d3a9ca4e66cf3e5e5b4a49592486aa0966a3878e8d005446b071361196d9",
+    "planning/moreno-review-precision-results.md": "6854da590af1a34e03a472167695a34c5e8cf6e53e80c88ef270c92d17f2ec77",
+    "planning/moreno-review-precision-runner.md": "9ad227c86e1f9651cca20914e6aa4fffa6b9ca2425e269cbb6c1c619a38ce73e",
+    "planning/moreno-review-primary-results.md": "d0b5e3ff4f91b7d6dced1cb8a5f84bf67423eb0505722d0cca535e70b3eb756f",
+    "planning/moreno-review-reader-integration.md": "283ba4bd829c5484bd9e6482dc522c4a456fff1f881edba271b692f876fbc1f2",
+    "planning/moreno-review-reporting.md": "15446aaea5a6f985253be9394323cb41e2ff8378393cab7d69448b6fb3eb4437",
+    "planning/moreno-review-reproduction-runner.md": "d4a886ee3c02b3de63eee486b07741ea33cb9e4d5aadf2c290b29513ae2ff66d",
+    "planning/moreno_kernel_review_probe.json": "c8d5280df87e2a0944cac7e6db0c42fd2da16732206ded26442d1c8661d925e9",
+    "planning/PREREGISTRATION-INITIAL-DRAFT.md": "6fee4d5bb40fa40a276fb52430716b17b81bb1e4a4ac52a9e3e1da57cdd69b9a",
+    "planning/release-checks.json": "dd480bbb7787e832052f53feb75dc9a87c3e0efe9f45178b21c0f33bbd7bf21d",
+    "planning/representation-normalization.json": "1282484e09bccbd5ab9f38b1a459e8613189e71a119a17abd3739bb4785c1a2a",
+    "planning/SEED-2026-09-30.md": "ca3dd2cf0e8c7e9804cc20212d0d481352d3ea31102fd84afa397c068ad6c679",
+    "planning/SOURCE-ARITHMETIC.json": "56c1831129e36f18f0d2319f4ae43df122be1455d6ab7431447f67efe211f8fd",
+    "PREREGISTRATION.md": "b5a492c7433617d4159f9515878cd9b1a4ae1fc6848728fe0fbb7622007bcaed",
+    "REPORT.md": "1ab32186c181ffbd512a37807e2642e0c091e5a2d35829728ab696d24cc2f6fb",
+    "requirements-figures.txt": "de950d3b75e4ad1a760c121533e06390c84574f7dd0b53c0eaa742ab6d5c2f38",
+    "requirements.txt": "03f077e7805a492c75ad2f39817c7005c8cfecb1f6e04eff3f028eb0597e1041",
+    "results/benchmark-001/manifest.json": "0be06f6444b4130551782a3f14e1c6a96d746e587681a5384ce0a870f1bac6b1",
+    "results/benchmark-001/summary.json": "3c635c0517a6145e108120d1bf31c6351470644b07ee828a9e43271123b309e9",
+    "results/benchmark-001/tasks.jsonl": "c2a6ab517e98ed7447425ff1924e683a31243a315c5149636ba30f9c57094428",
+    "results/benchmark-002/manifest.json": "9638e7145af4642ef4ecf8fe6a1203b512317570328553d2d5612f8368be3213",
+    "results/benchmark-002/summary.json": "beb8fbadd0e51602060ea5db3777cec4c72fe3e9766a5839b00eef1510b90fc3",
+    "results/benchmark-002/tasks.jsonl": "f83eef5001228867ce857d1194c281cf7a97a61675e0c5af0bddf064a9fdaf88",
+    "results/benchmark-003/manifest.json": "6a4fe6a597d102dfddc96c6c3d1eac9109633817d74b16322a2ae5747085fceb",
+    "results/benchmark-003/summary.json": "577aeb9c14dd100550a5a63119f9e11a2a0b0daa0da87b30f7d570c55b878954",
+    "results/benchmark-003/tasks.jsonl": "a2c3eb3d41a0d8b4ac0380731bfc0f4e745a9e0d00f999a989d81ae7e94110bb",
+    "results/calibration-001/manifest.json": "e611d7b02d9225c1b0866a2622476efc8a8750108194070cb203878a6bff8d11",
+    "results/calibration-001/summary.json": "2646f7eac1f6b6dce542f09784e3a0d241ed0e581a6384919465d4b185d3d624",
+    "results/calibration-001/tasks.jsonl": "c1e88753e418592bfecb64cf6498579b2195f2dcf9ee7e10fa70a873a1b32b79",
+    "results/figure4-anchors.json": "7f766583ab322929c3e1bf1c4a7007361e528c5c554c7307672a3ec1ec09ff2b",
+    "results/pass-A/books.jsonl": "ca86298a6d41da4bb5eaa6ad1c6e2f8a4c085ced1a3a51ed3e25aeb47e5df54b",
+    "results/pass-A/completion.json": "fbaba71529bacd9b20a9e0fa81683ee72f178f1d5c9a43b90dba8d4a0abac504",
+    "results/pass-A/manifest.json": "7dbcc4415699ddf23f86f5538166ec3180c187c1db990fa568c286403b9b91e9",
+    "results/pass-B/books.jsonl": "09fe9f9d328f80bf304748fcceb1aa689d38141b644210e37aa8fee250207ba7",
+    "results/pass-B/completion.json": "c2e8143dbecaf04b15786bae079c72c649bf60efde14969ae409e2278cfae33d",
+    "results/pass-B/manifest.json": "ca6f66a0bcc152ce559f132e6f82b45ee93ea8ba61b532ac514a0c315838d768",
+    "results/precision-001/manifest.json": "8c3d42d2de46ce022ab563b0bd32f81a507cdb03e7e81c42841b2d70d2e39042",
+    "results/precision-001/pairs.jsonl": "6afc0672d9c43033d556db647e60d0e0e2cb5319bf564a2d99f0dd39df52cf58",
+    "results/precision-001/summary.json": "4c9152b5397d0015b09a1b5aaefe77c60eb9be9e887eb748fd131a0cff1cbc00",
+    "results/README.md": "a3c7f32e5bab7de02cf169b2ee925a140ede115fe35a420ae3f290f38d2ceb7d",
+    "results/report.json": "c600b4e06bed22aeea275cb4d8fceb02dd4e0604c39b90ba8771f5a81f10ff78",
+    "SCOPE.md": "724e8e0004c26ad93fc378700660112f06eb3e02d498265c29b1a2977f22f792",
+    "src/__init__.py": "835d76ae37fa3133a207b283f1170a01c3afef5343040be497796af9c6443492",
+    "src/bootstrap.py": "873f06c65ab9cc40fc78089bcf469a94c43cc47dbbc7b63b0ad062fddffc554e",
+    "src/build_reader.py": "6666bd2d1fe125f9d78106077bec30eb781a4463252e72348959a777631c1a3e",
+    "src/calibrate.py": "510889a5db872f57b7f8d654f07dc8bae8a8841acc1b41a71332d242e00b5a7c",
+    "src/ingest.py": "d82f7f278c8693a2cf477a2898f15f686d5b21eb6b1faf6b8c08ce2b0224f10a",
+    "src/models.py": "987d60f41678d3330a62c3ca3bf6a7f42f2e601d4103b822a6e91c31e3a92b37",
+    "src/plot_figures.py": "401bcb1ec640ee3553fb5c0ffdbaa917395ec7766fd84bfd1b038e22a6f95fd1",
+    "src/precision.py": "6eff9e843f5a1589ab5e5e8adb306743eb5013c25d393f54919fcb4a04c44a12",
+    "src/reader.html": "f03c7889da395f2aa85ebb4067798cefafcae80f3d1ad8cbf06befc069a38e7a",
+    "src/README.md": "10f5fb11d3fcc8d746ddfaf09b3a5c47e8a665e147ff793dec7ca9d4c11af479",
+    "src/reference.py": "0981ad21d3f94c951f4b6d26ef70574b8f8a5de01830285f6cebd3e1b526839e",
+    "src/report.py": "f51b20bf12ad1bb79e2abaea058e76f096356681231c0991052009e909d6933e",
+    "src/reproduce.py": "815a14e97e489a44f7524d7f6ea191431e5a5d3ec84aca251c3e80f2ebaf0b6f",
+    "src/write_report.py": "177d42489bbad859eee769e6ea5ad40cab5e56dd8e39ac9981a7259e664545bc",
+    "STEP0.md": "bc6d4481fc06c6cc0eb501dc069ba0426be108d25b7dcd2009a91bb35867205a",
+    "tests/test_calibration.py": "9ada36bc4673ab5859ffe4404025e6eb1ef1cfcfda6bd11fef7b875d8bc1c431",
+    "tests/test_models.py": "5fcec230ab079cefd45285ce49eac573f1b82d232ea8d9312fff9fbbed3f3bd3",
+    "tests/test_precision.py": "22fbbee42cfb56a9b143b743be7e89baee3a6a97001505ebcf7eaa2a57780ac7",
+    "tests/test_reader.py": "ddaca263050aedd0133487fa93187fbeae1523f1aa3183e59a0c2b4dad0f911f",
+    "tests/test_report.py": "56f4c1b6b2540a2fbdf2f1b0d5ebbf5e9420ccf26d84495b4c144bf8941029c1",
+    "tests/test_reproduction_records.py": "2822c69db3dfe4954a7715adc52d45ebcdf7e77ea1060a7e8b4168f3ca854ea8",
+    "AGENTS.md": "bd46bff13c4f325a7438dcf3553ee26a0c99eef7f215dbf00b63fda656f1cd6f",
+    "AUDIT.md": "f9f12241a3bc801bb17161f5dca3b138aab58ff59da999a5e33fe2152f30a30d",
+    "README.md": "91b3608f9701d945958951fad9e17a344492e00297a9373eda1353c10189433f",
+    "planning/moreno-publication-review.md": "93776d49b5ed20fcfcfa3f19ca4ad889f6e75ac5b4669d9e92fe4dd11ed12ec3"
+  },
+  "transformations": {
+    "AUDIT-2026-11-17.md": {
+      "source_sha256": "6f6780c8961ca947cc42876efbce5ad1564270d9e7aafd312428d02d817ec4ed",
+      "export_sha256": "19de23dbdef6a118ad4057a9c28d4d7acd7610527216f8198eaeeba6f171e305",
+      "changes": [
+        "internal agent routing label",
+        "internal agent routing label",
+        "workstation path",
+        "workstation path",
+        "../INVESTIGATION_CHECKLIST.md",
+        "../AGENTS.md",
+        "historical-audit notice",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "planning/gemini-corrections-reader-review.md": {
+      "source_sha256": "454d473f8a49644aaa582e67b942d7770f6fc9226d9bacb708ba1c223cc53817",
+      "export_sha256": "eb55b14f3a00dfa13bcdc08dc66f90ff4e4b5c0d8ec7611fabc650ba8719894a",
+      "changes": [
+        "internal agent routing label",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "planning/gemini-forensics-review.md": {
+      "source_sha256": "dba2b7e29dd2a17b535a3c252c1441113a104c0f63fa5ff9062eadb954ba471e",
+      "export_sha256": "8b61befbad3ecd43765c1467982bb445dcb24c5639bc64bc4056e1e39b8f76d0",
+      "changes": [
+        "internal agent routing label",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "planning/moreno-reader-review.md": {
+      "source_sha256": "56b79cee2fe563edca6e9f87b43a655d3f527e5e0d012b35455c0d5f94e92e41",
+      "export_sha256": "dcdba37b4227c2f32daffd84c3af0202d2c2223e1cd0bddc2ad41c3fd1418b66",
+      "changes": [
+        "internal agent routing label",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "planning/moreno-review-amendment-1.md": {
+      "source_sha256": "326c08532c792c5d97a2ca141041cbc522e668403ef0af0bc9d5d5b75354ec21",
+      "export_sha256": "e1686b264c346063663c2c2f2db830b7087999eda8b285481e56ed4dcb6e0b8e",
+      "changes": [
+        "internal agent routing label",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "planning/moreno-review-calibration-results.md": {
+      "source_sha256": "79ff9704d7ffc62733508ed5a66123224cdacb1e0011812ffab6777f312990b8",
+      "export_sha256": "eea760cf3cfbed4842bcdced4cf29a8498824d82dc839083f785da7d007e4718",
+      "changes": [
+        "internal agent routing label",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "planning/moreno-review-final-scientific.md": {
+      "source_sha256": "f6d8bc540e9ab853ada8e0739e0bb549786449e347d054d78279211558070488",
+      "export_sha256": "27ca4fe0a5cf1a131cb2fdf2e7b6d4fd2bc095f56379c575483a6563ab541ffd",
+      "changes": [
+        "internal agent routing label",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "planning/moreno-review-implementation.md": {
+      "source_sha256": "89acb9f65ae52d3c23318e37c54541a1bbaa8ffc800d7604f03fc3b271fb7f23",
+      "export_sha256": "e59da3f9040c2ce2a341d9c720124df44acba904e39c9dfc638df4ed60a2e87e",
+      "changes": [
+        "internal agent routing label",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "planning/moreno-review-initial.md": {
+      "source_sha256": "b654d3a9ca4e66cf3e5e5b4a49592486aa0966a3878e8d005446b071361196d9",
+      "export_sha256": "93c6d4d35cfb47ec87fdfc75e7c0cf487ee97ebe89db59c82f75be339b0e641d",
+      "changes": [
+        "internal agent routing label",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "planning/moreno-review-precision-results.md": {
+      "source_sha256": "6854da590af1a34e03a472167695a34c5e8cf6e53e80c88ef270c92d17f2ec77",
+      "export_sha256": "07cc031426a5fd9b87dadf4ae4ddfeca2a4b575ee3aaf9c661e07db8773e2078",
+      "changes": [
+        "internal agent routing label",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "planning/moreno-review-precision-runner.md": {
+      "source_sha256": "9ad227c86e1f9651cca20914e6aa4fffa6b9ca2425e269cbb6c1c619a38ce73e",
+      "export_sha256": "41b50a5478c9c3d4851cf27c73dd793e68fc38b01681ffad3f5803ddff90d4ca",
+      "changes": [
+        "internal agent routing label",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "planning/moreno-review-primary-results.md": {
+      "source_sha256": "d0b5e3ff4f91b7d6dced1cb8a5f84bf67423eb0505722d0cca535e70b3eb756f",
+      "export_sha256": "9652d09bcd0fb9f0d1b1c290d44518949774ab173aaeb14fd883a103d7cafbb5",
+      "changes": [
+        "internal agent routing label",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "planning/moreno-review-reader-integration.md": {
+      "source_sha256": "283ba4bd829c5484bd9e6482dc522c4a456fff1f881edba271b692f876fbc1f2",
+      "export_sha256": "a3709317771e2904318180e1ac8b334ed03c9534d11a5dc52d3be2354488c544",
+      "changes": [
+        "internal agent routing label",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "planning/moreno-review-reporting.md": {
+      "source_sha256": "15446aaea5a6f985253be9394323cb41e2ff8378393cab7d69448b6fb3eb4437",
+      "export_sha256": "cd8b8e8c394bbd5d67bce77ac36f7b6e01699921bcdd5aca301eee31dea85df7",
+      "changes": [
+        "internal agent routing label",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "planning/moreno-review-reproduction-runner.md": {
+      "source_sha256": "d4a886ee3c02b3de63eee486b07741ea33cb9e4d5aadf2c290b29513ae2ff66d",
+      "export_sha256": "04f8df61fdaf1993e8516548452893911e4e66d84cb1cbf63597b2591d00e571",
+      "changes": [
+        "internal agent routing label",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "planning/SEED-2026-09-30.md": {
+      "source_sha256": "ca3dd2cf0e8c7e9804cc20212d0d481352d3ea31102fd84afa397c068ad6c679",
+      "export_sha256": "c703ba3e5a9337c1f7fd16efb77b432c5f6a4b82d4ebf105d1ec14607339c91c",
+      "changes": [
+        "internal prior-study locations",
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    ".gitignore": {
+      "source_sha256": "e38953c1e2e2355d4131d26434791332ff7a6398a0b145e8b557a1a75df1023b",
+      "export_sha256": "7ef516a9f4f2bf05cdd062da770af46e1c3d8afcd281fd46a7723ecda881e981",
+      "changes": [
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "AUDIT-RESPONSE-2026-11-17.md": {
+      "source_sha256": "4459a6d668d9b7eb8ede61438897e293440a54619f3e7c9f1da6969e60664911",
+      "export_sha256": "b7776d768330c6052c9a508e66d6a8d5b95cf8955415e10b4df7491ed2eb9c44",
+      "changes": [
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "data/raw/MANIFEST.md": {
+      "source_sha256": "0a634e534f7da514e0c84b097822a58323a7d2c081f8138086e1f7d0174b707a",
+      "export_sha256": "7ba0fc2b0477aac93f5dc00b940b09f9bc0feecaa5b530014e5ede972ae792b2",
+      "changes": [
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "paper/PROVENANCE.md": {
+      "source_sha256": "626fbf81bc65481ac5cf3ea1ca040d297d93ba8db4ddf13316f6a3909cd93249",
+      "export_sha256": "0b750337564dec0135576f00823f7123417e3e3f9a21cc4727aa3463f6802cc0",
+      "changes": [
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "src/reader.html": {
+      "source_sha256": "f03c7889da395f2aa85ebb4067798cefafcae80f3d1ad8cbf06befc069a38e7a",
+      "export_sha256": "c0288d4b5f654865e651a51b70c643c031dd7f6e2736296b3cf1312b92a5f637",
+      "changes": [
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "src/write_report.py": {
+      "source_sha256": "177d42489bbad859eee769e6ea5ad40cab5e56dd8e39ac9981a7259e664545bc",
+      "export_sha256": "6bfc93d2ac23421b755c12f3fe07f7b6179c23c422041431179fe459f68cda63",
+      "changes": [
+        "public export prose, credit, licensing or source-custody update"
+      ]
+    },
+    "index.html": {
+      "source_sha256": "443c24b5e15ebe864ed28fd9158279303177b992265f3b7cbba50b3143ae7f8b",
+      "changes": [
+        "public credits/licensing, source custody or historical-copy framing"
+      ],
+      "export_sha256": "dcc2c240527dbae732b1112891b693f9f6cb049d95402c3c2549d2af6a42aee5"
+    },
+    "REPORT.md": {
+      "source_sha256": "1ab32186c181ffbd512a37807e2642e0c091e5a2d35829728ab696d24cc2f6fb",
+      "changes": [
+        "public credits/licensing, source custody or historical-copy framing"
+      ],
+      "export_sha256": "9972d257621981a5d9abd02969bf7058c39c9f878622849f14a9e822c8c033e1"
+    },
+    "AGENTS.md": {
+      "source_sha256": "bd46bff13c4f325a7438dcf3553ee26a0c99eef7f215dbf00b63fda656f1cd6f",
+      "export_sha256": "aa3bf8a7f026106ff1c37fb330a9c11e44c31df8d82daa62be717a1cbe4ecd54",
+      "changes": [
+        "Replaced private working document with repository-contained public document"
+      ]
+    },
+    "AUDIT.md": {
+      "source_sha256": "f9f12241a3bc801bb17161f5dca3b138aab58ff59da999a5e33fe2152f30a30d",
+      "export_sha256": "964e73846457ffc6ae4a8450ef29f66c0f0626de659b1cfd5fe553f229f0d6f0",
+      "changes": [
+        "Replaced private working document with repository-contained public document"
+      ]
+    },
+    "README.md": {
+      "source_sha256": "91b3608f9701d945958951fad9e17a344492e00297a9373eda1353c10189433f",
+      "export_sha256": "3c4e43fed06b956a8fa47a35d774dc3fde0008d542830f68061e162b49d41e8f",
+      "changes": [
+        "Replaced private working document with repository-contained public document"
+      ]
+    },
+    "planning/moreno-publication-review.md": {
+      "source_sha256": "93776d49b5ed20fcfcfa3f19ca4ad889f6e75ac5b4669d9e92fe4dd11ed12ec3",
+      "export_sha256": "16bfdf14c615c944d5cd57231181e654b82cfedc2b56fc0161f5aa03d77a4a48",
+      "changes": [
+        "Generalized workstation checkout path; release verdict unchanged"
+      ]
+    }
+  },
+  "excluded_source_artifacts": [
+    {
+      "path": "planning/before-gemini-corrections.zip",
+      "bytes": 388024,
+      "sha256": "02dcb08455460a22c11dc86904687a823cc3191733150da43212e3f2747cb521"
+    },
+    {
+      "path": "planning/review-original-bytes.zip",
+      "bytes": 32350,
+      "sha256": "57a540caa61d5bf2a213d53cfeae74397ad45e7ee30c822c9e25e325fd44cb74"
+    },
+    {
+      "path": "planning/review-scripts/manifest.json",
+      "bytes": 734,
+      "sha256": "77d4029989d6e00b2dc1060d195a2d57d9e8e5ecbc7032ba67b503f88e9bf844"
+    },
+    {
+      "path": "planning/review-scripts/moreno_calibration_review.py",
+      "bytes": 4342,
+      "sha256": "25d8be8d67d558fec78e899cb54b640016011e5923a5c09a7e5c88de55e726ca"
+    },
+    {
+      "path": "planning/review-scripts/moreno_final_scientific_review.py",
+      "bytes": 10238,
+      "sha256": "7dcb89be9432440997ac6e3487434c004a916a0b0abe54bb0592ad948305bf6d"
+    },
+    {
+      "path": "planning/review-scripts/moreno_kernel_review_probe.py",
+      "bytes": 1509,
+      "sha256": "98cdaa8f7d6c609effd14a1aaa1b9e776545629c9491757ccdac62164b7412b5"
+    },
+    {
+      "path": "planning/review-scripts/moreno_precision_results_review.py",
+      "bytes": 7638,
+      "sha256": "55103f02aa41cda9b2233db19f7d1e66b5913c9a6aee427771f077717a06ff50"
+    },
+    {
+      "path": "planning/review-scripts/moreno_primary_review.py",
+      "bytes": 7358,
+      "sha256": "ba51b71242dcfa5247b6618b9ad17a204a2f42c3a30538728b02ab9c9a0b7ba0"
+    },
+    {
+      "path": "planning/review-scripts/moreno_reader_loader_review_probe.py",
+      "bytes": 4865,
+      "sha256": "a11fa93de93ce322df0dab02e92d935d51c3e779fcc42710e66b7f05a6fb50f8"
+    },
+    {
+      "path": "planning/review-scripts/moreno_report_review_probe.py",
+      "bytes": 2202,
+      "sha256": "f94445da2409f0c52cd260e3767980a28f40ac3283ed18f8de5af0a64b3281bf"
+    },
+    {
+      "path": "planning/review-scripts/README.md",
+      "bytes": 350,
+      "sha256": "dcffd5d6aeffe0b81e5ca4f50b46e02f82f6e6eed09318fac1c195f7411e169b"
+    },
+    {
+      "path": "planning/SETUP-VERIFICATION.json",
+      "bytes": 636,
+      "sha256": "ea2b87c42b112a2290d847e0f72a85bb97086da07f87939ddc0d01559fc8ec40"
+    },
+    {
+      "path": "PUBLICATION-PLAN.md",
+      "bytes": 2193,
+      "sha256": "8b79d0fa56edc6ce1270eef6630b5573b060adea9a8855d91400e461f07a948e"
+    },
+    {
+      "path": "data/raw/PG_English_wordfreqs.zip",
+      "bytes": 26349768,
+      "sha256": "6c2e479e15b029d8c6a86380230aeb0edd422ae13a4f24e26b799a94c83c9a61"
+    },
+    {
+      "path": "paper/paper.pdf",
+      "bytes": 2017278,
+      "sha256": "5234b7edbd72dc71989dbcc87d3fb712af5db136ef5203e625920f24148c971d"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "description": "arithmetic on published target transcription, not reproduced data",
+  "f1_accepted": 4524,
+  "f2_accepted": 12315,
+  "both": 829,
+  "union": 16010,
+  "neither": 15065,
+  "f1_percent": 14.558326629123089,
+  "f2_percent": 39.62992759452936,
+  "ratio": 2.7221485411140582,
+  "mc_se_at_p_005_b_100": 0.021794494717703367,
+  "f1_rejection_constant_beta2": 1.2158542037080533
+}

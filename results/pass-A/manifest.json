@@ -1,0 +1,27 @@
+{
+  "pass": "A",
+  "seed": 2026111703,
+  "B": 100,
+  "expected_books": 31075,
+  "contract_sha256": "6e90d8c646115f991ba8353d166579c9b0eb24b3a7f5e46525e922ff5bc92f93",
+  "environment": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "mpmath": "1.4.1"
+  },
+  "code_sha256": {
+    "models.py": "987d60f41678d3330a62c3ca3bf6a7f42f2e601d4103b822a6e91c31e3a92b37",
+    "reference.py": "0981ad21d3f94c951f4b6d26ef70574b8f8a5de01830285f6cebd3e1b526839e",
+    "bootstrap.py": "873f06c65ab9cc40fc78089bcf469a94c43cc47dbbc7b63b0ad062fddffc554e",
+    "reproduce.py": "815a14e97e489a44f7524d7f6ea191431e5a5d3ec84aca251c3e80f2ebaf0b6f"
+  },
+  "calibration_artifact_sha256": {
+    "manifest.json": "e611d7b02d9225c1b0866a2622476efc8a8750108194070cb203878a6bff8d11",
+    "tasks.jsonl": "c1e88753e418592bfecb64cf6498579b2195f2dcf9ee7e10fa70a873a1b32b79",
+    "summary.json": "2646f7eac1f6b6dce542f09784e3a0d241ed0e581a6384919465d4b185d3d624"
+  },
+  "ingest_json_sha256": "e01f477d629eeb0faa717c6a5f07c5708d69bc8d74fd426de81fe897b47e2ce2",
+  "books_csv_sha256": "c87cbb9d22c7f9184b5311a0180701cad56dff3e779316d0114d61648bfd417d",
+  "archive_sha256": "6c2e479e15b029d8c6a86380230aeb0edd422ae13a4f24e26b799a94c83c9a61"
+}

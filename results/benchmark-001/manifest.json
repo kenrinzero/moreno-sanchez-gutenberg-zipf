@@ -1,0 +1,37 @@
+{
+  "mode": "benchmark",
+  "contract_sha256": "6e90d8c646115f991ba8353d166579c9b0eb24b3a7f5e46525e922ff5bc92f93",
+  "code_sha256": {
+    "__init__.py": "835d76ae37fa3133a207b283f1170a01c3afef5343040be497796af9c6443492",
+    "bootstrap.py": "037a6cd4543d0c18ce747626c28cb9af7d2285303bfd8ace4b7ccea7dc91fdbe",
+    "calibrate.py": "65bc220a1fd4f1859dc815f88c1961e0c143ec6d18853fe5dd704c7d1c26193d",
+    "ingest.py": "d82f7f278c8693a2cf477a2898f15f686d5b21eb6b1faf6b8c08ce2b0224f10a",
+    "models.py": "5967eeb6a0f2f64148c1abcd29333167c9596704c0605f1c3553ffb087d24180",
+    "reference.py": "33efa6758e2e89f4ae9c9432c8f088f7df1ab1bc1e575dc9ed17287ed3d23d91"
+  },
+  "environment": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "mpmath": "1.4.1"
+  },
+  "random_engine": "PCG64",
+  "B": 100,
+  "main_outer": 2000,
+  "diagnostic_outer": 200,
+  "main_N": [
+    300,
+    3000,
+    30000
+  ],
+  "diagnostic_N": [
+    27,
+    84,
+    210347
+  ],
+  "betas": [
+    1.5,
+    2.0,
+    3.0
+  ]
+}

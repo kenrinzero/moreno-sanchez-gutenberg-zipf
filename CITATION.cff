@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite this reproduction, the source paper and its Figshare dataset; see CREDITS.md for AI implementation and audit roles."
+type: software
+title: "Two versions of Zipf's law, one Gutenberg corpus: a partial reproduction and Monte Carlo audit"
+authors:
+  - name: "kenrinzero"
+    website: "https://github.com/kenrinzero"
+date-released: 2026-11-17
+repository-code: "https://github.com/kenrinzero/moreno-sanchez-gutenberg-zipf"
+url: "https://kenrinzero.github.io/moreno-sanchez-gutenberg-zipf/"
+license: MIT

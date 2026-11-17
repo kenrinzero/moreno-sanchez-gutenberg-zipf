@@ -1,0 +1,12 @@
+{
+  "bytes": 26349768,
+  "md5": "e269dc5e82b0038aae9f9e297dcdb286",
+  "sha256": "6c2e479e15b029d8c6a86380230aeb0edd422ae13a4f24e26b799a94c83c9a61",
+  "zip_crc_failure": null,
+  "frequency_files": 31075,
+  "sample_names": [
+    "PG_English_wordfreqs/PG10.freqs",
+    "PG_English_wordfreqs/PG10000.freqs",
+    "PG_English_wordfreqs/PG10001.freqs"
+  ]
+}

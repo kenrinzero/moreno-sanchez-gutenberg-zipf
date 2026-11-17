@@ -1,0 +1,9 @@
+{
+  "report_sha256": "c600b4e06bed22aeea275cb4d8fceb02dd4e0604c39b90ba8771f5a81f10ff78",
+  "matplotlib": "3.11.2",
+  "plot_code_sha256": "401bcb1ec640ee3553fb5c0ffdbaa917395ec7766fd84bfd1b038e22a6f95fd1",
+  "figures": {
+    "figure3-7.png": "5222bd91dc0b23eba9d4f98fe454cf0f712ceea213a1b29aab98d875172b860d",
+    "figure3-7.svg": "f9a6d2cd96d969c6f3c1e871d6651953c46f50edff9185509b8d0031237bd6b8"
+  }
+}

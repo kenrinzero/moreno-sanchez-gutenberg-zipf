@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+work/
+data/raw/*.zip
+paper/paper.pdf
+paper/paper.txt

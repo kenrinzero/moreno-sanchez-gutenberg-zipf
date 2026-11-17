@@ -1,0 +1,56 @@
+{
+  "protected_files_unchanged": 41,
+  "scientific_report_unchanged": true,
+  "report_metadata_changes_only": [
+    "report_code_sha256",
+    "source_passes.*.path"
+  ],
+  "outside_cwd_builds": "report, reader, figures, written report",
+  "byte_identical_rebuilds": [
+    "report.json",
+    "index.html",
+    "REPORT.md",
+    "figure3-7.png",
+    "figure3-7.svg",
+    "figures/manifest.json"
+  ],
+  "legacy_windows_paths": "passed on Windows with normalized separators; PurePosixPath regression covered by unit test",
+  "explicit_relocated_A_B": "byte-identical reader",
+  "tampered_relocated_B": "rejected",
+  "runtime_limit": "full recorded Windows sys.version and exact library versions remain required",
+  "sha256": {
+    "results/report.json": "c600b4e06bed22aeea275cb4d8fceb02dd4e0604c39b90ba8771f5a81f10ff78",
+    "index.html": "443c24b5e15ebe864ed28fd9158279303177b992265f3b7cbba50b3143ae7f8b",
+    "REPORT.md": "1ab32186c181ffbd512a37807e2642e0c091e5a2d35829728ab696d24cc2f6fb",
+    "figures/figure3-7.png": "5222bd91dc0b23eba9d4f98fe454cf0f712ceea213a1b29aab98d875172b860d",
+    "figures/figure3-7.svg": "f9a6d2cd96d969c6f3c1e871d6651953c46f50edff9185509b8d0031237bd6b8",
+    "AUDIT-2026-11-17.md": "6f6780c8961ca947cc42876efbce5ad1564270d9e7aafd312428d02d817ec4ed"
+  },
+  "unit_tests": {
+    "passed": 32,
+    "seconds": 29.059
+  },
+  "browser_checks": {
+    "served_via": "localhost",
+    "desktop_width": 1280,
+    "mobile_width": 390,
+    "no_document_overflow": true,
+    "visible_concentric_markers": true,
+    "partial_bin_toggle": true,
+    "slider_decimal_value_text": [
+      "0.05",
+      "0.50"
+    ],
+    "dynamic_column_headers_scoped": true,
+    "console_errors_and_warnings": 0,
+    "temporary_viewport_reset": true,
+    "local_file_navigation": "not tested; prior policy limit remains disclosed"
+  },
+  "independent_correction_reader": "PASS; planning/gemini-corrections-reader-review.md",
+  "independent_forensic_adjudication": "planning/gemini-forensics-review.md",
+  "review_sha256": {
+    "gemini-corrections-reader-review.md": "454d473f8a49644aaa582e67b942d7770f6fc9226d9bacb708ba1c223cc53817",
+    "gemini-forensics-review.md": "dba2b7e29dd2a17b535a3c252c1441113a104c0f63fa5ff9062eadb954ba471e"
+  },
+  "correction_snapshot_sha256": "02dcb08455460a22c11dc86904687a823cc3191733150da43212e3f2747cb521"
+}

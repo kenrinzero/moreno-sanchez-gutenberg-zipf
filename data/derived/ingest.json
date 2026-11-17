@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-17",
+  "archive_sha256": "6c2e479e15b029d8c6a86380230aeb0edd422ae13a4f24e26b799a94c83c9a61",
+  "script_sha256": "d82f7f278c8693a2cf477a2898f15f686d5b21eb6b1faf6b8c08ce2b0224f10a",
+  "books_csv_sha256": "c87cbb9d22c7f9184b5311a0180701cad56dff3e779316d0114d61648bfd417d",
+  "vectors": 31075,
+  "unique_ids": 31075,
+  "metadata_entries_ignored": 31078,
+  "other_directories": 1,
+  "positive_integer_sorted_vectors": true,
+  "minimum": {
+    "pg_id": 29156,
+    "N": 84,
+    "L": 115,
+    "hapax_types": 71,
+    "max_frequency": 12,
+    "member_bytes": 170,
+    "sha256": "fdc1cd344690dfac7a42e90de7702d68c1f19445a257bb0049ded07742475083"
+  },
+  "maximum": {
+    "pg_id": 29765,
+    "N": 210347,
+    "L": 4659068,
+    "hapax_types": 116430,
+    "max_frequency": 209428,
+    "member_bytes": 451047,
+    "sha256": "88d9c1284337b078dc5a13af18d81fc24f8e2bed41e297902b75477840357f7c"
+  },
+  "total_tokens": 1961738645,
+  "total_types_across_books": 177927677,
+  "minimum_type_count": 27,
+  "maximum_type_count": 210347,
+  "books_with_N_below_300": 146,
+  "length_anchor_checks": {
+    "29156": {
+      "observed_L": 115,
+      "expected_L": 115,
+      "pass": true
+    },
+    "29765": {
+      "observed_L": 4659068,
+      "expected_L": 4659068,
+      "pass": true
+    },
+    "27027": {
+      "observed_L": 83720,
+      "expected_L": 83720,
+      "pass": true
+    },
+    "9365": {
+      "observed_L": 239018,
+      "expected_L": 239018,
+      "pass": true
+    },
+    "28879": {
+      "observed_L": 2081,
+      "expected_L": 2081,
+      "pass": true
+    }
+  },
+  "figure5_edge_ranks_one_based": {
+    "115": [
+      1
+    ],
+    "5291": [
+      1998
+    ],
+    "25739": [
+      9998
+    ],
+    "34378": [
+      11999
+    ],
+    "89476": [
+      23999
+    ],
+    "103767": [
+      25998,
+      25999
+    ]
+  },
+  "scope": "deterministic data validation; no model fit, bootstrap or acceptance verdict",
+  "elapsed_seconds": 24.572
+}

@@ -1,0 +1,203 @@
+{
+  "verdict": "PASS",
+  "provenance_selection_coverage_intervals_status_verified": true,
+  "hashes": {
+    "manifest.json": "8c3d42d2de46ce022ab563b0bd32f81a507cdb03e7e81c42841b2d70d2e39042",
+    "pairs.jsonl": "6afc0672d9c43033d556db647e60d0e0e2cb5319bf564a2d99f0dd39df52cf58",
+    "summary.json": "4c9152b5397d0015b09a1b5aaefe77c60eb9be9e887eb748fd131a0cff1cbc00"
+  },
+  "selected_pairs": 400,
+  "distinct_books": 399,
+  "not_audited_pairs": 61750,
+  "models": {
+    "f1": {
+      "rejected": 74,
+      "non_rejected": 110,
+      "unresolved": 16
+    },
+    "f2": {
+      "rejected": 70,
+      "non_rejected": 110,
+      "unresolved": 20
+    }
+  },
+  "strata": [
+    {
+      "model": 1,
+      "stratum": [
+        1,
+        3
+      ],
+      "candidates": 1394,
+      "selected": 50,
+      "statuses": {
+        "rejected": 45,
+        "non_rejected": 3,
+        "unresolved": 2
+      },
+      "A_accepted": 0,
+      "A_accepted_then_rejected": 0,
+      "A_rejected_then_non_rejected": 3
+    },
+    {
+      "model": 1,
+      "stratum": [
+        4,
+        5
+      ],
+      "candidates": 413,
+      "selected": 50,
+      "statuses": {
+        "rejected": 26,
+        "unresolved": 10,
+        "non_rejected": 14
+      },
+      "A_accepted": 17,
+      "A_accepted_then_rejected": 5,
+      "A_rejected_then_non_rejected": 6
+    },
+    {
+      "model": 1,
+      "stratum": [
+        6,
+        10
+      ],
+      "candidates": 770,
+      "selected": 50,
+      "statuses": {
+        "non_rejected": 43,
+        "unresolved": 4,
+        "rejected": 3
+      },
+      "A_accepted": 50,
+      "A_accepted_then_rejected": 3,
+      "A_rejected_then_non_rejected": 0
+    },
+    {
+      "model": 1,
+      "stratum": [
+        11,
+        20
+      ],
+      "candidates": 902,
+      "selected": 50,
+      "statuses": {
+        "non_rejected": 50
+      },
+      "A_accepted": 50,
+      "A_accepted_then_rejected": 0,
+      "A_rejected_then_non_rejected": 0
+    },
+    {
+      "model": 2,
+      "stratum": [
+        1,
+        3
+      ],
+      "candidates": 3923,
+      "selected": 50,
+      "statuses": {
+        "rejected": 45,
+        "non_rejected": 3,
+        "unresolved": 2
+      },
+      "A_accepted": 0,
+      "A_accepted_then_rejected": 0,
+      "A_rejected_then_non_rejected": 3
+    },
+    {
+      "model": 2,
+      "stratum": [
+        4,
+        5
+      ],
+      "candidates": 1217,
+      "selected": 50,
+      "statuses": {
+        "rejected": 20,
+        "unresolved": 12,
+        "non_rejected": 18
+      },
+      "A_accepted": 23,
+      "A_accepted_then_rejected": 7,
+      "A_rejected_then_non_rejected": 6
+    },
+    {
+      "model": 2,
+      "stratum": [
+        6,
+        10
+      ],
+      "candidates": 2096,
+      "selected": 50,
+      "statuses": {
+        "rejected": 5,
+        "non_rejected": 39,
+        "unresolved": 6
+      },
+      "A_accepted": 50,
+      "A_accepted_then_rejected": 5,
+      "A_rejected_then_non_rejected": 0
+    },
+    {
+      "model": 2,
+      "stratum": [
+        11,
+        20
+      ],
+      "candidates": 2539,
+      "selected": 50,
+      "statuses": {
+        "non_rejected": 50
+      },
+      "A_accepted": 50,
+      "A_accepted_then_rejected": 0,
+      "A_rejected_then_non_rejected": 0
+    }
+  ],
+  "pass_A_to_precision": {
+    "f1": {
+      "A_accepted": {
+        "rejected": 8,
+        "non_rejected": 101,
+        "unresolved": 8
+      },
+      "A_rejected": {
+        "rejected": 66,
+        "non_rejected": 9,
+        "unresolved": 8
+      }
+    },
+    "f2": {
+      "A_accepted": {
+        "rejected": 12,
+        "non_rejected": 101,
+        "unresolved": 10
+      },
+      "A_rejected": {
+        "rejected": 58,
+        "non_rejected": 9,
+        "unresolved": 10
+      }
+    }
+  },
+  "numerical_counters": {
+    "f1": {
+      "ties": 0,
+      "raw_float_ties": 0,
+      "ks_refinements": 0,
+      "inverse_refinements": 2,
+      "large_integers": 0
+    },
+    "f2": {
+      "ties": 0,
+      "raw_float_ties": 0,
+      "ks_refinements": 2,
+      "inverse_refinements": 3,
+      "large_integers": 0
+    }
+  },
+  "max_interval_endpoint_difference": 1.2490009027033011e-15,
+  "max_tail_probability_residual": 1.366962099069724e-14,
+  "interpretation": "Selected-pair conditional Monte Carlo precision; pointwise intervals, no whole-corpus extrapolation."
+}

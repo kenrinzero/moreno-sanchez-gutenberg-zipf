@@ -1,0 +1,19 @@
+{
+  "reader_sha256": "d8abf793d7570c1ceb8341a012f0fa482afeda3d6c4ebd26971f7f7061ca937b",
+  "report_sha256": "86d0c55cc5b780a42fadd2d58252a11dd249b21263acebc5381fbcec72f6af3f",
+  "unique_ids": 14,
+  "internal_links": 5,
+  "external_assets": 0,
+  "headline_partial_verdict": true,
+  "CUA": {
+    "desktop_width": 1280,
+    "mobile_width": 390,
+    "document_overflow": false,
+    "controls": true,
+    "keyboard_focus": true,
+    "console_errors": 0,
+    "CSV_pairs_verified": 400,
+    "transport": "localhost",
+    "direct_file_navigation": "not tested: browser policy permits HTTP(S) only"
+  }
+}

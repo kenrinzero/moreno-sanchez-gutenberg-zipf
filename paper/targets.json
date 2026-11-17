@@ -1,0 +1,137 @@
+{
+  "source": "paper.pdf",
+  "doi": "10.1371/journal.pone.0147073",
+  "transcribed_date": "2026-11-17",
+  "verification": "same producer checked extracted text and rendered publisher pages; not independent double entry",
+  "corpus_texts": 31075,
+  "table1": {
+    "page": 12,
+    "columns": [
+      "R_positive",
+      "R_negative",
+      "total_ml_ks"
+    ],
+    "rows": {
+      "f1_only": [
+        3614,
+        81,
+        3695
+      ],
+      "f2_only": [
+        120,
+        11366,
+        11486
+      ],
+      "both": [
+        431,
+        398,
+        829
+      ],
+      "total_lr": [
+        4165,
+        11845,
+        16010
+      ]
+    }
+  },
+  "table2": {
+    "page": 13,
+    "columns": [
+      "significant_f1",
+      "significant_f2"
+    ],
+    "rows": {
+      "f1_only": [
+        1666,
+        0
+      ],
+      "f2_only": [
+        0,
+        9423
+      ],
+      "both": [
+        0,
+        3
+      ],
+      "total_first_three_rows": [
+        1666,
+        9426
+      ],
+      "neither": [
+        510,
+        11431
+      ]
+    }
+  },
+  "figure4": {
+    "page": 9,
+    "lengths": [
+      83720,
+      239018,
+      2081
+    ],
+    "rounded_beta": [
+      1.96,
+      1.89,
+      1.82
+    ],
+    "selection": "p > 0.5",
+    "pg_ids_from_seed_not_yet_verified": [
+      27027,
+      9365,
+      28879
+    ]
+  },
+  "figure8": {
+    "page": 13,
+    "acceptance": "p >= 0.05",
+    "f1": {
+      "mean": 2.03,
+      "sd": 0.15
+    },
+    "f2": {
+      "mean": 2.02,
+      "sd": 0.17
+    }
+  },
+  "figure9": {
+    "page": 14,
+    "acceptance": "p >= 0.05",
+    "f1_length_intervals": [
+      [
+        115,
+        4759
+      ],
+      [
+        4760,
+        9153
+      ],
+      [
+        9156,
+        14142
+      ],
+      [
+        14146,
+        241358
+      ]
+    ],
+    "f2_length_intervals": [
+      [
+        115,
+        17457
+      ],
+      [
+        17460,
+        41993
+      ],
+      [
+        42008,
+        67588
+      ],
+      [
+        67611,
+        348992
+      ]
+    ]
+  }
+}

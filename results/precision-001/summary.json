@@ -1,0 +1,94 @@
+{
+  "complete": true,
+  "selected_pairs": 400,
+  "pairs_sha256": "6afc0672d9c43033d556db647e60d0e0e2cb5319bf564a2d99f0dd39df52cf58",
+  "models": {
+    "f1": {
+      "rejected": 74,
+      "non_rejected": 110,
+      "unresolved": 16
+    },
+    "f2": {
+      "rejected": 70,
+      "non_rejected": 110,
+      "unresolved": 20
+    }
+  },
+  "strata": [
+    {
+      "model": 1,
+      "stratum": [
+        1,
+        3
+      ],
+      "candidates": 1394,
+      "selected": 50
+    },
+    {
+      "model": 1,
+      "stratum": [
+        4,
+        5
+      ],
+      "candidates": 413,
+      "selected": 50
+    },
+    {
+      "model": 1,
+      "stratum": [
+        6,
+        10
+      ],
+      "candidates": 770,
+      "selected": 50
+    },
+    {
+      "model": 1,
+      "stratum": [
+        11,
+        20
+      ],
+      "candidates": 902,
+      "selected": 50
+    },
+    {
+      "model": 2,
+      "stratum": [
+        1,
+        3
+      ],
+      "candidates": 3923,
+      "selected": 50
+    },
+    {
+      "model": 2,
+      "stratum": [
+        4,
+        5
+      ],
+      "candidates": 1217,
+      "selected": 50
+    },
+    {
+      "model": 2,
+      "stratum": [
+        6,
+        10
+      ],
+      "candidates": 2096,
+      "selected": 50
+    },
+    {
+      "model": 2,
+      "stratum": [
+        11,
+        20
+      ],
+      "candidates": 2539,
+      "selected": 50
+    }
+  ],
+  "not_precision_audited_pairs": 61750,
+  "interpretation": "Stratified selected subset; pointwise conditional Monte Carlo intervals, no whole-corpus extrapolation",
+  "wall_seconds_this_invocation": 599.7189330999972
+}

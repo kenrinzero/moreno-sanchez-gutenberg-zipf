@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-17",
+  "figshare_article_id": 1515919,
+  "figshare_version": 3,
+  "status": "paper, metadata and exact frequency archive preserved; archive size, checksum, CRC and entry count verified",
+  "preserved_files": [
+    {
+      "path": "paper/paper.pdf",
+      "bytes": 2017278,
+      "sha256": "5234b7edbd72dc71989dbcc87d3fb712af5db136ef5203e625920f24148c971d"
+    },
+    {
+      "path": "planning/SEED-2026-09-30.md",
+      "bytes": 17188,
+      "sha256": "ca3dd2cf0e8c7e9804cc20212d0d481352d3ea31102fd84afa397c068ad6c679"
+    },
+    {
+      "path": "data/raw/figshare-1515919.json",
+      "bytes": 3334,
+      "sha256": "b728e62649b3a4edb6628d385a9c962bae43ae201c0d9bc31b8bc8cff6dac13e"
+    },
+    {
+      "path": "data/raw/PG_English_wordfreqs.zip",
+      "bytes": 26349768,
+      "sha256": "6c2e479e15b029d8c6a86380230aeb0edd422ae13a4f24e26b799a94c83c9a61",
+      "md5": "e269dc5e82b0038aae9f9e297dcdb286"
+    }
+  ],
+  "required_archive": {
+    "path": "data/raw/PG_English_wordfreqs.zip",
+    "present": true,
+    "bytes_expected": 26349768,
+    "md5_expected": "e269dc5e82b0038aae9f9e297dcdb286",
+    "download_url": "https://ndownloader.figshare.com/files/2284750",
+    "license": "CC BY 4.0",
+    "sha256": "6c2e479e15b029d8c6a86380230aeb0edd422ae13a4f24e26b799a94c83c9a61",
+    "acquired_date": "2026-11-17",
+    "acquisition": "User-downloaded file copied byte-identically into project; original left in Downloads"
+  }
+}

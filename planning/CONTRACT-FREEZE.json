@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-17",
+  "status": "frozen before statistical implementation or corpus fitting",
+  "reviewed_draft_sha256": "840c71fab0c0d62da6bf8b974bf79d3ef8de9479fe3cf071adfcc6b7ff15ef86",
+  "frozen_contract_sha256": "6e90d8c646115f991ba8353d166579c9b0eb24b3a7f5e46525e922ff5bc92f93",
+  "post_review_changes": "Only title and first-sentence lifecycle metadata; all scientific instructions byte-identical",
+  "reviewer": "fresh-context design_review subagent; same model family, context independent of producer",
+  "review_memo_sha256": "326c08532c792c5d97a2ca141041cbc522e668403ef0af0bc9d5d5b75354ec21",
+  "data_exposure": "Published targets, historical seed pilots, deterministic corpus structure/lengths; no new fitted exponents or p-values",
+  "environment": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "mpmath": "1.4.1",
+    "platform": "Windows-11-10.0.26300-SP0"
+  }
+}
