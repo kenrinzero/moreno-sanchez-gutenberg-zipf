@@ -52,8 +52,8 @@
       "sha256": "76005003445021da9ac2fbd5e97d0bcc0541d72157e669e98eb3f749e95a02ad"
     },
     "EXPORT-TRANSFORMATIONS.json": {
-      "bytes": 23708,
-      "sha256": "21477f8a0d507a2ef0762a17b3d7da35aad3629aa66a52feb2e2fea6a8d8b37f"
+      "bytes": 23894,
+      "sha256": "080a2517abdb9c461d23c20eb32231f046004552d86288be31b7cd730655be5a"
     },
     "LICENSE": {
       "bytes": 1067,
@@ -132,8 +132,8 @@
       "sha256": "493bd4542858dd906916229aa8b3f363d4db75b26dbb7ad34bce8a6fa325dc77"
     },
     "index.html": {
-      "bytes": 364756,
-      "sha256": "dcc2c240527dbae732b1112891b693f9f6cb049d95402c3c2549d2af6a42aee5"
+      "bytes": 364762,
+      "sha256": "8e52e9531a1162f80174174b7b8d8d97affa3d1e46b0401391b664b2c65ce4c5"
     },
     "licenses/DEJAVU-LICENSE.txt": {
       "bytes": 4816,
@@ -420,8 +420,8 @@
       "sha256": "6eff9e843f5a1589ab5e5e8adb306743eb5013c25d393f54919fcb4a04c44a12"
     },
     "src/reader.html": {
-      "bytes": 17729,
-      "sha256": "c0288d4b5f654865e651a51b70c643c031dd7f6e2736296b3cf1312b92a5f637"
+      "bytes": 17735,
+      "sha256": "59c24eabd72157523dc044af8ff77f7c4e05511cdf1ea743601caa8247572c54"
     },
     "src/reference.py": {
       "bytes": 4257,
@@ -436,8 +436,8 @@
       "sha256": "815a14e97e489a44f7524d7f6ea191431e5a5d3ec84aca251c3e80f2ebaf0b6f"
     },
     "src/verify_publication.py": {
-      "bytes": 4669,
-      "sha256": "1da1654a4b84fe195144f9234877cd8a40ea794624c89e892119bc511162181d"
+      "bytes": 4675,
+      "sha256": "2de733af9f13d84eaaf062e76cb1617f961ea66490d86155b54960538a153b54"
     },
     "src/write_report.py": {
       "bytes": 14162,

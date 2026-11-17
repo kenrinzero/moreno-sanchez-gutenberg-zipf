@@ -53,7 +53,7 @@ def main():
     html=(ROOT/'index.html').read_text(encoding='utf-8');dom=Reader(html)
     if len(dom.ids)!=len(set(dom.ids)) or not set(dom.anchors)<=set(dom.ids):raise ValueError('Reader anchor identity error')
     if dom.external_assets or '@@' in html:raise ValueError('Reader external runtime asset or placeholder')
-    for token in ('OpenAI Codex (GPT-6)','Gemini 4 Carbon (High)','CC BY 4.0','MIT','Partial numerical reproduction.'):
+    for token in ('OpenAI Codex (GPT-6 Astra)','Gemini 4 Carbon (High)','CC BY 4.0','MIT','Partial numerical reproduction.'):
         if token not in html:raise ValueError(f'Reader lacks required credit/license/verdict: {token}')
     report=json.loads((ROOT/'results/report.json').read_bytes())
     if report['acceptance']['f1']['observed']!=4724 or report['acceptance']['f2']['observed']!=12496 or report['all_declared_table_bands_pass']:

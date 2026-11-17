@@ -272,9 +272,10 @@
     },
     "src/reader.html": {
       "source_sha256": "f03c7889da395f2aa85ebb4067798cefafcae80f3d1ad8cbf06befc069a38e7a",
-      "export_sha256": "c0288d4b5f654865e651a51b70c643c031dd7f6e2736296b3cf1312b92a5f637",
+      "export_sha256": "59c24eabd72157523dc044af8ff77f7c4e05511cdf1ea743601caa8247572c54",
       "changes": [
-        "public export prose, credit, licensing or source-custody update"
+        "public export prose, credit, licensing or source-custody update",
+        "2026-11-17: specify GPT-6 Astra in the public reader footer at the user's request"
       ]
     },
     "src/write_report.py": {
@@ -287,9 +288,10 @@
     "index.html": {
       "source_sha256": "443c24b5e15ebe864ed28fd9158279303177b992265f3b7cbba50b3143ae7f8b",
       "changes": [
-        "public credits/licensing, source custody or historical-copy framing"
+        "public credits/licensing, source custody or historical-copy framing",
+        "2026-11-17: specify GPT-6 Astra in the public reader footer at the user's request"
       ],
-      "export_sha256": "dcc2c240527dbae732b1112891b693f9f6cb049d95402c3c2549d2af6a42aee5"
+      "export_sha256": "8e52e9531a1162f80174174b7b8d8d97affa3d1e46b0401391b664b2c65ce4c5"
     },
     "REPORT.md": {
       "source_sha256": "1ab32186c181ffbd512a37807e2642e0c091e5a2d35829728ab696d24cc2f6fb",
