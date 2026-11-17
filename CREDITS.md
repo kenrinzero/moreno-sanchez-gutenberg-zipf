@@ -1,7 +1,7 @@
 # Credits
 
 - **Kenrin / kenrinzero** — project direction, corpus acquisition and publication decision. Hosting does not imply independent human validation of every calculation.
-- **OpenAI Codex (GPT-6)** — scoped study design, mathematical derivations, frozen-contract preparation, numerical implementation, calibration, corpus simulations, precision audit, analysis, reader and static figures, audit adjudication, corrections and publication packaging.
+- **OpenAI Codex (GPT-6 Astra)** — scoped study design, mathematical derivations, frozen-contract preparation, numerical implementation, calibration, corpus simulations, precision audit, analysis, reader and static figures, audit adjudication, corrections and publication packaging.
 - **Independent Codex scientific and reader reviewers** — separate contexts and production roles for design, implementation, completed-result and reader checks. They did not produce the artifacts they accepted. These initial reviews share the implementation's model family.
 - **Gemini 4 Carbon (High)** — independent cross-family audit of the paper, input custody, numerical method and artifacts, plus additional clean-room checks; identified portability, presentation and test issues. The original audit's stronger forensic claims are qualified in the audit response. Credit does not imply endorsement of later wording not reviewed by that auditor.
 - **Codex correction reviewers** — independently rederived the forensic qualifications and checked corrected presentation, path handling and hash safeguards. Release checks concern packaging, not a new corpus experiment.
